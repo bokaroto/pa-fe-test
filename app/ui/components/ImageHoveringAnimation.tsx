@@ -15,7 +15,7 @@ const defaultOptions = {
 
 interface ImageHoveringAnimationProps {
   alt: string;
-  src: string;
+  src: string | any;
 }
 
 const ImageHoveringAnimation: React.FC<ImageHoveringAnimationProps> = ({
